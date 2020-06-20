@@ -1,34 +1,34 @@
 body{
 	background-color:#10273f;
-}
+}/*为整个网页添加背景色*/
 a { 
 	text-decoration:none;
-}
+}/*去掉下划线*/
 .clear{
 	clear:both;
-}
+}/*让inline元素的下一个元素到下一行*/
 a:hover { 
 	color:#ff4500;
-} 
+} /*悬停颜色*/
 .geduan{
 	background-color:#675c47;
 	height:25px;
 	margin:10px 0px;
-}
+}/*隔断,美化网页*/
 .geduan2{
 	background-color:#675c47;
 	height:15px;
 	margin:0px -2px;
-}
+}/*隔断,美化网页*/
 .geduan3{
 	height:15px;
-}
+}/*隔断,美化网页*/
 .form{
 	width:600px;
-}
+}/*设置表格宽度*/
 .main li{
 	list-style:none;
-}
+}/*去掉li前面的点*/
 .l-title{
 	font-size:15px;
 	font-weight:bold;
@@ -124,7 +124,7 @@ a:hover {
 }
 header li{
 	display:inline;
-}
+}/*把首页的li设置为内联元素*/
 .cont3{
 	width:1500px;
 	background-color:#fff0cd;

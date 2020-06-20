@@ -1,39 +1,39 @@
 body{
 	background-color:#10273f;
-}
+}/*为整个网页添加背景色*/
 a { 
 	text-decoration:none;
-}
+}/*去掉下划线*/
 .clear{
 	clear:both;
-}
+}/*让inline元素的下一个元素到下一行*/
 a:hover { 
 	color:#ff4500;
-} 
+} /*悬停颜色*/
 .geduan{
 	background-color:#675c47;
 	height:25px;
-	margin:0 20px;
-}
+	margin:10px 0px;
+}/*隔断,美化网页*/
 .geduan2{
 	background-color:#675c47;
 	height:15px;
 	margin:0px -2px;
-}
+}/*隔断,美化网页*/
 .top1{
 	height:75px;
 	background:url(../image/yunwen.jpg);
 	background-color:#675c47;
 	margin-bottom:10px;
 	width:1500px;
-}
+}/*页眉栏标题1*/
 .top2{
 	height:35px;
 	background:#675c47;
 	margin-bottom:10px;
 	width:1500px;
 	padding:0px;
-}
+}/*页眉栏标题2*/
 .item-name{
 	padding: 0 40px;
 	font-size: 15px;
@@ -42,7 +42,7 @@ a:hover {
 	display:inline-block;
 	margin-top:7px;
 	margin-bottom:8px;
-}
+}/*导航栏字体*/
 .item-name:hover{
 	color:#ff4500;
 }
@@ -54,7 +54,7 @@ a:hover {
 	height:60px;
 	margin:5px 0;
 	
-}
+}/*页眉栏背景*/
 .head1{
 	float:left;
 	width:550px;
@@ -116,7 +116,7 @@ a:hover {
 }
 header li{
 	display:inline;
-}
+}/*设置页眉区li为inline元素*/
 .cont3{
 	width:1500px;
 	background-color:#fff0cd;
@@ -135,7 +135,7 @@ header li{
 	font-size:20px;
 	padding:30px auto;
 	line-height:80px;
-}
+}/*设置链接字体*/
 .main{
 	width:1500px;
 	height:1200px;
